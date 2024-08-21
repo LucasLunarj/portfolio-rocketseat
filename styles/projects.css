@@ -1,7 +1,50 @@
-#works{
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+#works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+ 
+  h4 {
+    font: var(--sub-inconsolata);
+    color: var(--red);
+  }
+
+  h2 {
+    font: var(--text-asap-md);
+    color: var(--gray-600);
+    margin-bottom: 56px;
+  }
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 140px;
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+  }
+
+  div {
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-300);
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  h3 {
+    font: var(--text-asap-sm);
+    margin-bottom: 8px;
+    color: var(--gray-600);
+  }
+
+  p {
+    font: var(--text-maven-sm);
+    color: var(--gray-500);
+  }
 }

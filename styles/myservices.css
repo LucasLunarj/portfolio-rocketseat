@@ -1,0 +1,45 @@
+#my-services {
+  height: 480px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: var(--gray-100);
+
+  span {
+    font: var(--sub-inconsolata);
+    color: var(--red);
+  }
+
+  h3{
+    font:var(--text-asap-md);
+    color: var(--gray-600);
+  }
+}
+
+.services {
+  display: flex;
+  gap: 24px;
+  margin-top: 56px;
+  div {
+    
+    width: 280px;
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 20px;
+
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  h3 {
+    font: var(--text-asap-sm);
+    color: var(--gray-600);
+  }
+  p {
+    font: var(--text-maven-sm);
+    color: var(--gray-500);
+  }
+}
